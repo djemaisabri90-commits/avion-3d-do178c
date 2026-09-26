@@ -1,0 +1,17 @@
+/target
+# Fichiers de compilation Rust
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# Fichiers de données et logs du simulateur (Boîte noire locale)
+*.bin
+signal_machine.bin
+commande_pilote.bin
+boite_noire.bin
+
+# Fichiers Python et Anaconda
+__pycache__/
+*.pyc
+.venv/
+.env
